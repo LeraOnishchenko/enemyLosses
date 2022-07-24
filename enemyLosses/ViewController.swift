@@ -82,15 +82,14 @@ class ViewController: UIViewController {
         if (Equipment.helicopter == nil ){
             Equipment.helicopter = 0
         }
-        self.helicopter.text = String(Equipment.helicopter!)
+        self.helicopter.text = String(Equipment.helicopter!) + "🚁"
         if (Equipment.aircraft == nil ){
             Equipment.aircraft = 0
         }
-        self.aircraft.text = String(Equipment.aircraft!)
+        self.aircraft.text = String(Equipment.aircraft!) + "✈️"
         
 
     }
-
 
 }
 

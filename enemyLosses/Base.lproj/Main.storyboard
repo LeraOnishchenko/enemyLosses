@@ -75,6 +75,9 @@
                                                                             </subviews>
                                                                         </stackView>
                                                                     </subviews>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="200" id="XUh-86-932"/>
+                                                                    </constraints>
                                                                 </stackView>
                                                             </subviews>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -82,6 +85,7 @@
                                                                 <constraint firstAttribute="trailing" secondItem="iuq-SM-Ubr" secondAttribute="trailing" id="00Q-5V-jbO"/>
                                                                 <constraint firstItem="iuq-SM-Ubr" firstAttribute="leading" secondItem="B2w-rr-VOe" secondAttribute="leading" id="EVW-ka-8BD"/>
                                                                 <constraint firstAttribute="bottom" secondItem="iuq-SM-Ubr" secondAttribute="bottom" id="Mhr-3H-Zy2"/>
+                                                                <constraint firstAttribute="height" constant="100" id="iC3-sW-kmP"/>
                                                                 <constraint firstItem="iuq-SM-Ubr" firstAttribute="top" secondItem="B2w-rr-VOe" secondAttribute="top" id="q7y-iD-mEA"/>
                                                             </constraints>
                                                         </view>

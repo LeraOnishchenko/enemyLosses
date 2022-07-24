@@ -12,7 +12,7 @@ class TableViewCell: UITableViewCell {
 
     @IBOutlet private weak var date: UILabel!
     func config(from data: Equipment){
-        self.date.text = data.date
+        self.date.text = data.date + "💣"
     }
 }
 
